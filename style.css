@@ -1,0 +1,69 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container {
+  color: white;
+  font-family: 'Mohave', sans-serif;
+  margin: 0% 15%;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 5% 10% 2%;
+}
+
+header {
+  color: #2FCA13;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+}
+
+header > img {
+  width: 200px;
+}
+
+nav {
+  background-color: #2FCA13;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 1%;
+  text-align: center;
+}
+
+section {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+section > .road::before {
+    content: "\27FC \00A0";
+}
+
+section > div:first-child {
+  display: inline-block;
+}
+
+section > .name {
+  font-size: 23px;
+}
+
+section > .charge {
+  height: 25px;
+  border-radius: 5px;
+}
+
+section#gino22 > .charge {
+  background-color: #FFC300;
+  width: 65%;
+}
+
+section#mike24 > .charge {
+  background-color: #61E108;
+  width: 100%;
+}
+
+section#fede154 > .charge {
+  background-color: #CA1E13;
+  width: 25%;
+}
